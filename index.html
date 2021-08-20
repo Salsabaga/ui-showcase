@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<script defer src="app.js"></script>
+		<title>Front End Playground</title>
+	</head>
+	<body>
+		<div id="image-one">
+			<div class="title-text">Welcome to the Playground</div>
+			<p>
+				<cite>Moutains Sunset Germany Fortress</cite> Image by
+				<a
+					href="https://pixabay.com/users/nordseher-6327161/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6531264"
+					>Ingo Jakubke</a
+				>
+				from
+				<a
+					href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6531264"
+					>Pixabay</a
+				>
+			</p>
+		</div>
+		<!-- Div hovering over mouse -->
+		<div id="mouse-container">
+			<div id="mouse-info">
+				<h1>Hover over Tooltip</h1>
+				<p>
+					Tooltip, a graphical UI element whereby you can hover over a screen
+					element or component and a textbox pops up containing the infomation
+					on that element. Tooltips following the cursor is my favourite UI
+					element in which adds more interactivity to the User Experience.
+				</p>
+				<p>
+					You can use different mouse events to position the tooltip relative to
+					the cursor. ClientX and Y is a very useful method only for pages that
+					does not scroll the page down. The name of each element can be accesed using the mouse event, and the target method and the get attribute to obtain the id of the element.
+					
+				</p>
+				<p>Mousemove works best for mouse tooltips, as it continues the callback as the event is a continuous listener compared to the mouseover, which only listens for the mouse as soon as it enters the element then stops.</p>
+			</div>
+			<div id="countries-example">
+				<div class="country" id="Ecuador"></div>
+				<div class="country" id="Argentina"></div>
+				<div class="country" id="Peru"></div>
+				<div class="country" id="Colombia"></div>
+				<div class="country" id="Paraguay"></div>
+			</div>
+			<div class="mouse-box"></div>
+		</div>
+		<div id="image-two">
+			<div id="second-title">Section with another title</div>
+		</div>
+		<!-- Modals -->
+
+		<div id="modal-parent">
+			<div class="modal">
+				Here you can add a form for a user sign up, or if you want to add
+				information in the form of a pop up
+			</div>
+		</div>
+		<button id="modal-btn">Click for Modal</button>
+	</body>
+</html>
